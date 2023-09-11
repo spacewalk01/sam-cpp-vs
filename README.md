@@ -1,6 +1,6 @@
 # SAM.cpp
 
-This repository integrates sam-cpp and ggml into Visual Studio. Sam-cpp is a pure C/C++ implementation of Meta's [Segment Anything Model](https://github.com/facebookresearch/segment-anything/).
+This repository integrates [sam-cpp](https://github.com/ggerganov/ggml/tree/master/examples/sam) and [ggml](https://github.com/ggerganov/ggml) into Visual Studio. Sam-cpp is a pure C/C++ implementation of Meta's [Segment Anything Model](https://github.com/facebookresearch/segment-anything/).
 
 ## Description
 
@@ -87,3 +87,4 @@ Output mask (mask_out_2.png in build folder):
 - [ggml](https://github.com/ggerganov/ggml)
 - [SAM](https://segment-anything.com/)
 - [SAM demo](https://segment-anything.com/demo)
+- [sam-cpp](https://github.com/ggerganov/ggml/tree/master/examples/sam)
