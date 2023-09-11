@@ -16,7 +16,7 @@ In visual studio, set to build in `Release` mode with the `x64`.
 Release/main.exe -t 16 -i img.jpg -m models/ggml-model-f16.bin
 ```
 
-## Example output on M2 Ultra
+## Example output on Windows 10
 ```
  $ ▶ Release/main.exe -t 16 -i img.jpg -m examples/sam/ggml-model-f16.bin
 main: seed = 1694396520
