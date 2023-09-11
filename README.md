@@ -33,7 +33,7 @@ python convert-pth-to-ggml.py examples/sam/sam_vit_b_01ec64.pth . 1
 
 ## Example output on M2 Ultra
 ```
- $ ▶ make -j sam && time ./bin/sam -t 8 -i img.jpg
+ $ ▶ Release/main.exe -t 16 -i img.jpg -m examples/sam/ggml-model-f16.bin
 [ 28%] Built target common
 [ 71%] Built target ggml
 [100%] Built target sam
