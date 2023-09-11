@@ -4,7 +4,7 @@ This repository integrates [sam.cpp](https://github.com/ggerganov/ggml/tree/mast
 
 ## Description
 
-The example currently supports only the [ViT-B SAM model checkpoint](https://huggingface.co/facebook/sam-vit-base). You can convert it by following the instructions in the sam.cpp readme. But, for simplicity, I have already converted the model into GGML and uploaded it to the cloud. The repo doesn't require any additional library and dependencies.
+The example currently supports only the [ViT-B SAM model checkpoint](https://huggingface.co/facebook/sam-vit-base). You can convert the pytorch model by following the instructions in the sam.cpp readme. But, for simplicity, I have already converted the model into GGML and uploaded it to the cloud. The repo doesn't require any additional library and dependencies.
 
 ## Quick start
 In visual studio, set to build in `Release` mode with the `x64`.
