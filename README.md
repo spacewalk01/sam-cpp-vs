@@ -8,11 +8,12 @@ The example currently supports only the [ViT-B SAM model checkpoint](https://hug
 
 ## Quick start
 In visual studio, set to build in `Release` mode with the `x64`.
-```bash
-# Download model
+### 1. Download model
+```
 Download [ggml-model-f16.bin](https://drive.google.com/file/d/1n25nEYFyM3-Wyaliftru3IfIJB9lsJYz/view?usp=drive_link)
-
-# Run inference
+```
+### 2. Run inference
+```
 Release/main.exe -t 16 -i img.jpg -m models/ggml-model-f16.bin
 ```
 
