@@ -9,17 +9,11 @@ The example currently supports only the [ViT-B SAM model checkpoint](https://hug
 ## Quick start
 In visual studio, set to build in `Release` mode with the `x64`.
 ```bash
-git clone https://github.com/ggerganov/ggml
-cd ggml
-
-# Install Python dependencies
-python3 -m pip install -r requirements.txt
-
-# Convert PTH model to ggml
-python convert-pth-to-ggml.py examples/sam/sam_vit_b_01ec64.pth . 1
+# Download model
+Download [ggml-model-f16.bin](https://drive.google.com/file/d/1n25nEYFyM3-Wyaliftru3IfIJB9lsJYz/view?usp=drive_link)
 
 # Run inference
-Release/main.exe -t 16 -i img.jpg -m examples/sam/ggml-model-f16.bin
+Release/main.exe -t 16 -i img.jpg -m models/ggml-model-f16.bin
 ```
 
 ## Downloading and converting the model checkpoints
@@ -28,7 +22,7 @@ You can download a [model checkpoint](https://github.com/facebookresearch/segmen
 
 ```
 # Convert PTH model to ggml
-python convert-pth-to-ggml.py examples/sam/sam_vit_b_01ec64.pth . 1
+python convert-pth-to-ggml.py models/sam_vit_b_01ec64.pth . 1
 ```
 
 ## Example output on M2 Ultra
