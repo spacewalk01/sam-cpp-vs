@@ -34,14 +34,11 @@ python convert-pth-to-ggml.py examples/sam/sam_vit_b_01ec64.pth . 1
 ## Example output on M2 Ultra
 ```
  $ ▶ Release/main.exe -t 16 -i img.jpg -m examples/sam/ggml-model-f16.bin
-[ 28%] Built target common
-[ 71%] Built target ggml
-[100%] Built target sam
-main: seed = 1693224265
+main: seed = 1694396520
 main: loaded image 'img.jpg' (680 x 453)
 sam_image_preprocess: scale = 0.664062
 main: preprocessed image (1024 x 1024)
-sam_model_load: loading model from 'models/sam-vit-b/ggml-model-f16.bin' - please wait ...
+sam_model_load: loading model from '\models\ggml-model-f16.bin' - please wait ...
 sam_model_load: n_enc_state      = 768
 sam_model_load: n_enc_layer      = 12
 sam_model_load: n_enc_head       = 12
@@ -49,19 +46,20 @@ sam_model_load: n_enc_out_chans  = 256
 sam_model_load: n_pt_embd        = 4
 sam_model_load: ftype            = 1
 sam_model_load: qntvr            = 0
-operator(): ggml ctx size = 202.32 MB
+operator (): ggml ctx size = 202.32 MB
 sam_model_load: ...................................... done
 sam_model_load: model size =   185.05 MB / num tensors = 304
 embd_img
 dims: 64 64 256 1 f32
 First & Last 10 elements:
--0.05117 -0.06408 -0.07154 -0.06991 -0.07212 -0.07690 -0.07508 -0.07281 -0.07383 -0.06779
-0.01589 0.01775 0.02250 0.01675 0.01766 0.01661 0.01811 0.02051 0.02103 0.03382
-sum:  12736.272313
+-0.05101 -0.06350 -0.07115 -0.06838 -0.06825 -0.06971 -0.07147 -0.07088 -0.06774 -0.05427
+0.01575 0.01772 0.02244 0.01668 0.01755 0.01668 0.01795 0.02048 0.02101 0.03388
+sum:  12757.156252
 
-Skipping mask 0 with iou 0.705935 below threshold 0.880000
-Skipping mask 1 with iou 0.762136 below threshold 0.880000
-Mask 2: iou = 0.947081, stability_score = 0.955437, bbox (371, 436), (144, 168)
+Skipping mask 0 with iou 0.705756 below threshold 0.880000
+Skipping mask 1 with iou 0.762171 below threshold 0.880000
+Mask 2: iou = 0.947049, stability_score = 0.956250, bbox (371, 436), (144, 168)
+Inference done
 ```
 
 Input point is (414.375, 162.796875) (currently hardcoded)
