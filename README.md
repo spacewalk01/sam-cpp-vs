@@ -17,7 +17,8 @@ python3 -m pip install -r requirements.txt
 # Convert PTH model to ggml
 python convert-pth-to-ggml.py examples/sam/sam_vit_b_01ec64.pth . 1
 
-# run inference
+# Run inference
+# Set build mode to `Release` and `x64`
 Release/main.exe -t 16 -i img.jpg -m examples/sam/ggml-model-f16.bin
 ```
 
