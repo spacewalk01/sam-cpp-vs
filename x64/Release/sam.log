@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(x64\Release\)에 다른 프로젝트(llama.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  ggml-alloc.c
+  ggml.c
+F:\Projects\sam-cpp\ggml.c(3148,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\Projects\sam-cpp\ggml.c(20210,34): warning C4090: '함수': 'const' 한정자가 서로 다릅니다.
+  main.cpp
+  utils.cpp
+F:\Projects\sam-cpp\utils.cpp(118,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(206,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(258,37): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(300,44): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(379,44): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(543,46): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(543,39): warning C4244: '초기화 중': 'float'에서 'const uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(544,46): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Projects\sam-cpp\utils.cpp(544,39): warning C4244: '초기화 중': 'float'에서 'const uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1310 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  sam.vcxproj -> F:\Projects\sam-cpp\x64\Release\main.exe

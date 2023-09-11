@@ -1,0 +1,2 @@
+E:\Downloads\llama.cpp-master\x64\Release\main.exe
+F:\Projects\sam-cpp\x64\Release\main.exe
