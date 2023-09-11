@@ -62,14 +62,6 @@ sum:  12736.272313
 Skipping mask 0 with iou 0.705935 below threshold 0.880000
 Skipping mask 1 with iou 0.762136 below threshold 0.880000
 Mask 2: iou = 0.947081, stability_score = 0.955437, bbox (371, 436), (144, 168)
-
-
-main:     load time =    51.28 ms
-main:    total time =  2047.49 ms
-
-real	0m2.068s
-user	0m16.343s
-sys	0m0.214s
 ```
 
 Input point is (414.375, 162.796875) (currently hardcoded)
