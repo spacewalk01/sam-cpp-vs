@@ -7,7 +7,7 @@ This repo integrates [sam-cpp](https://github.com/ggerganov/ggml/tree/master/exa
 The example currently supports only the [ViT-B SAM model checkpoint](https://huggingface.co/facebook/sam-vit-base).
 
 ## Quick start
-In visual studio, set to build in "Release" mode with the "x64".
+In visual studio, set to build in `Release` mode with the `x64`.
 ```bash
 git clone https://github.com/ggerganov/ggml
 cd ggml
