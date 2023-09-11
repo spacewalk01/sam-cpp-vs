@@ -62,4 +62,4 @@ Output mask (mask_out_2.png in build folder):
 - [ggml](https://github.com/ggerganov/ggml)
 - [SAM](https://segment-anything.com/)
 - [SAM demo](https://segment-anything.com/demo)
-- [sam-cpp](https://github.com/ggerganov/ggml/tree/master/examples/sam)
+- [sam.cpp](https://github.com/ggerganov/ggml/tree/master/examples/sam)
